@@ -1,0 +1,15 @@
+{
+  "minVersion": "0.8-SNAPSHOT",
+  "required": true,
+  "package": "me.geek.tom.dumbstuff.mixins.mixins",
+  "refmap": "dumb.mixins.refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinBlock",
+    "MixinEndPortalBlock",
+    "MixinEntity",
+    "MixinMainMenuScreen"
+  ]
+}
